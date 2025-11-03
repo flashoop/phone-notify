@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm start)",
+      "Bash(timeout 5 cmd /c \"type nul\" 2)",
+      "Bash(nul)",
+      "Bash(exit 0)",
+      "Bash(timeout 10 cmd:*)",
+      "Bash(npx playwright:*)",
+      "Bash(taskkill:*)",
+      "Bash(timeout:*)",
+      "Bash(node test-pushover.js:*)",
+      "Bash(del:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

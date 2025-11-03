@@ -1,0 +1,23 @@
+# Apple Store API Configuration
+appleStore:
+  baseUrl: "https://www.apple.com/my/shop/fulfillment-messages"
+  params:
+    fae: true
+    pl: true
+    "mts.0": "regular"
+    "mts.1": "compact"
+    searchNearby: true
+
+# Monitoring Configuration
+monitoring:
+  # Check interval in milliseconds (default: 5 minutes)
+  intervalMs: 300000
+
+# Pushover Configuration
+pushover:
+  apiUrl: "https://api.pushover.net/1/messages.json"
+
+# Logging
+logging:
+  enabled: true
+  level: "info"
